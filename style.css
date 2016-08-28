@@ -1,0 +1,50 @@
+.home {
+	/*background-color: #ffcce0;*/
+	/*background-color: #80b3ff;*/
+
+	background: linear-gradient(295deg, #7487d7, #b3c6f5);
+	background-size: 400% 400%;
+	-webkit-animation: BlueGradient 30s ease infinite;
+	-moz-animation: BlueGradient 30s ease infinite;
+	-o-animation: BlueGradient 30s ease infinite;
+	animation: BlueGradient 30s ease infinite;
+	@-webkit-keyframes BlueGradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes BlueGradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-o-keyframes BlueGradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes BlueGradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+
+	color: #ffffff;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 75px;
+	margin: 50px auto;
+	width: 90%;
+	-webkit-font-smoothing: antialiased;
+}
+
+.home a {
+	/*color: #ff66A3;*/
+	color: #668cff;
+	text-decoration: none;
+}
+
+.home a:hover {
+	text-decoration: underline;
+}
